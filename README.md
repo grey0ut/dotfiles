@@ -7,8 +7,11 @@ Initialize git inside `.dotfiles` and pull down the repo.
   
 Run `stow` to create the symlinks for your various dot configs:
 ```
+stow nvim
 stow bash
 stow powershell
 stow starship
 ```
 For bash you may need to delete the existing .bashrc or use the parameter to overwrite the existing one with a symlink.
+
+need to have neovim installed, with a version above v8.0 and then the Lazy-vim config will take care of downloading all of the plugins, and the configuration will be handled by the .lua files
