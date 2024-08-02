@@ -1,16 +1,15 @@
-local set = vim.opt
+local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
+if not vim.loop.fs_stat(lazypath) then
+  vim.fn.system({
+    "git",
+    "clone",
+    "--filter=blob:none",
+    "https://github.com/folke/lazy.nvim.git",
+    "--branch=stable", -- latest stable release
+    lazypath,
+  })
+end
+vim.opt.rtp:prepend(lazypath)
 
-vim.wo.number = true
-
-set.backspace = '2'
-set.showcmd = true
-set.laststatus = 2
-set.autowrite = true
-set.autoread = true
-
-set.tabstop = 2
-set.shiftwidth = 2
-set.shiftround = true
-set.expandtab = true
-
-require("config.lazy")
+require("vim-options")
+require("lazy").setup("plugins")
