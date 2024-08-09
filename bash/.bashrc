@@ -24,7 +24,7 @@ alias music='nohup konsole -e cmus &>/dev/null & /usr/bin/flatpak run --branch=s
 #PS1='[\[\033[01;34m\]\u\[\033[00m\]@\[\033[01;31m\]\h\[\033[00m\]]\W\$ '
 PS1='[\[\033[01;34m\]\u\[\033[00m\]@\[\033[01;31m\]\h\[\033[00m\]]\[\033[44m\]\W\[\033[00m\]\$ '
 
-export PATH=$PATH:"$HOME/.local/bin"
+export PATH=$PATH:"$HOME/.local/bin:$HOME/.local/share/gem/ruby/3.0.0/bin"
 if [ $XDG_SESSION_TYPE = "tty" ]; then
         echo "suppressing starship on tty"
 else
