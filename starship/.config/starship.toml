@@ -12,10 +12,14 @@ $git_status\
 [](fg:#06969A bg:#33658A)\
 $time\
 [ ](fg:#33658A)\
-"""
+$line_break$character"""
+
 command_timeout = 5000
 # Disable the blank line at the start of the prompt
 # add_newline = false
+[character]
+success_symbol = '[❯](bold blue) '
+error_symbol = '[✗](bold red) '
 
 # You can also replace your username with a neat symbol like  to save some space
 [username]
