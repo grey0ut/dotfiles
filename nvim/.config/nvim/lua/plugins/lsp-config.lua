@@ -8,9 +8,10 @@ return {
     {
        "williamboman/mason-lspconfig.nvim",
           lazy = false,
-          opts = {
-            auto_install = true,
-          },
+          automatic_installation = true,
+          --opts = {
+          --  auto_install = true,
+          --},
     },
     {
         "neovim/nvim-lspconfig",
