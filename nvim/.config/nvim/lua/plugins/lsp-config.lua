@@ -25,7 +25,7 @@ return {
             })
             lspconfig.powershell_es.setup({
                 capabilities = capabilities,
-                bundle_path = '/home/grislobo/.local'
+                bundle_path = '/opt'
             })
             vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
             vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, {})
