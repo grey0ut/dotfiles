@@ -2532,6 +2532,6 @@ background_opacity .90
 
 
 # BEGIN_KITTY_THEME
-# Nord
+# Obsidian
 include current-theme.conf
 # END_KITTY_THEME
