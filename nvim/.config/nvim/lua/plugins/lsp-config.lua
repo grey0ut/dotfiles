@@ -23,6 +23,9 @@ return {
             lspconfig.lua_ls.setup({
                 capabilities = capabilities
             })
+            lspconfig.pyright.setup({
+                capabilities = capabilities
+            })
             lspconfig.powershell_es.setup({
                 capabilities = capabilities,
                 bundle_path = '/opt'
