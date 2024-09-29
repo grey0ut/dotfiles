@@ -3,6 +3,7 @@ vim.cmd("set tabstop=2")
 vim.cmd("set softtabstop=4")
 vim.cmd("set shiftwidth=4")
 vim.cmd("set relativenumber")
+vim.cmd("set clipboard+=unnamedplus")
 vim.g.mapleader = " "
 vim.g.background = "light"
 
