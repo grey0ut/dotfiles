@@ -15,3 +15,11 @@ stow starship
 For bash you may need to delete the existing .bashrc or use the parameter to overwrite the existing one with a symlink.
 
 need to have neovim installed, with a version above v8.0 and then the Lazy-vim config will take care of downloading all of the plugins, and the configuration will be handled by the .lua files
+
+# hyprland  
+For hyprland make sure to have the following packages installed:  
+pacman  
+  hyprland, swaync, hyprlock, waybar, hyprpaper, pwvucontrol, hypridle, xdg-desktop-portal-hyprland, ttf-font-awesome, ulauncher
+
+aur  
+  hyprshot

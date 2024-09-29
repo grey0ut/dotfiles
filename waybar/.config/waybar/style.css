@@ -1,0 +1,104 @@
+@import "Nord.css";
+* {
+    border: none;
+    border-radius: 4px;
+    min-height: 0;
+    margin: 1px;
+}
+
+window#waybar {
+    background: transparent;
+    background-color: @nord0;
+    color: @nord4;
+    font-family: "Hack Nerd Font Mono";
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid @nord0;
+}
+
+#battery,
+#clock,
+#cpu,
+#memory,
+#mode,
+#network,
+#pulseaudio,
+#temperature,
+#tray,
+#backlight,
+#language,
+#mode,
+#memory,
+#temperature,
+
+#workspaces {
+    font-weight: bold;
+    background: @nord10;
+    color: @nord4;
+}
+#workspaces button.visible {
+    color: @nord1;
+    background: @nord9;
+}
+#workspaces button.active {
+    color: @nord4;
+    background: @nord2;
+}
+#window {
+    margin-right: 40px;
+    margin-left: 40px;
+    font-weight: normal;
+}
+#pulseaudio, #network, #cpu, #memory, #temperature, #clock, #tray {
+    padding: 0 8px;
+}
+#bluetooth {
+    background: @nord10;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 0 0.6em;
+}
+#idle_inhibitor {
+    background: @mode;
+    font-weight: bold;
+    padding: 0 0.6em;
+}
+#network, #network.desktop, #network.laptop {
+    background: @nord10;
+}
+
+#memory {
+    background: @nord10;
+}
+
+#cpu {
+    background: @nord2;
+    color: @nord4;
+}
+#temperature {
+    background-color: @nord2;
+    color: @nord4;
+}
+#clock {
+    background: @nord10;
+    color: @nord4;
+}
+
+#pulseaudio { 
+    background: @nord2;
+    color: @nord4;
+}
+
+#custom-power {
+    padding: 0px 10px 1px 10px;
+    font-size: 24;
+    border-style: solid;
+    border-width: 2px;
+    border-color: @nord10;
+    border-radius: 15px;
+}
+#custom-media {
+    padding: 0px 8px 2px 8px;
+    background: @nord10;
+    color: @nord4;
+}
