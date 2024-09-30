@@ -19,7 +19,8 @@ need to have neovim installed, with a version above v8.0 and then the Lazy-vim c
 # hyprland  
 For hyprland make sure to have the following packages installed:  
 pacman  
-  hyprland, swaync, hyprlock, waybar, hyprpaper, pwvucontrol, hypridle, xdg-desktop-portal-hyprland, ttf-font-awesome, ulauncher
+  hyprland, swaync, hyprlock, waybar, hyprpaper, hypridle, xdg-desktop-portal-hyprland, ttf-font-awesome
 
 aur  
-  hyprshot
+  hyprshot, pwvucontrol, ulauncher
+
