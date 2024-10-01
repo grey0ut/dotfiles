@@ -53,7 +53,8 @@
         "tooltip-format": "If: {ifname}\nIP: {ipaddr}\nSN: {netmask}\nGW: {gwaddr}",
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "Disconnected ⚠",
-        "on-click-right": "nm-connection-editor"
+        "on-click-right": "nm-connection-editor",
+        "on-click": "plasmawindowed org.kde.plasma.networkmanagement"
     },
     "battery": {
         "states": {
