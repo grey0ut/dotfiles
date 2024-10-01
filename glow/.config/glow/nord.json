@@ -66,14 +66,14 @@
     "unticked": "[ ] "
   },
   "link": {
-    "color": "#88c0d0",
+    "color": "#a3be8c",
     "underline": true
   },
   "link_text": {
-    "color": "#88c0d0"
+    "color": "#a3be8c"
   },
   "image": {
-    "color": "#88c0d0",
+    "color": "#a3be8c",
     "underline": true
   },
   "image_text": {
