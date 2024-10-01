@@ -16,7 +16,6 @@ window#waybar {
     border-bottom: 1px solid @nord0;
 }
 
-#battery,
 #clock,
 #cpu,
 #memory,
@@ -87,6 +86,16 @@ window#waybar {
 #pulseaudio { 
     background: @nord2;
     color: @nord4;
+}
+
+#battery {
+    background: @nord10;
+    padding: 0px 8px 1px 8px;
+}
+
+#backlight {
+    background: @nord10;
+    padding: 0px 8px 1px 8px;
 }
 
 #custom-power {

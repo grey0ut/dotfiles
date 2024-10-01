@@ -49,13 +49,35 @@
     },
     "network": {
         "format-ethernet": "<span size='x-large'></span>",
+        "format-wifi": "<span size='x-large'></span> {signalStrength}%",
         "tooltip-format": "If: {ifname}\nIP: {ipaddr}\nSN: {netmask}\nGW: {gwaddr}",
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "Disconnected ⚠",
         "on-click-right": "nm-connection-editor"
     },
+    "battery": {
+        "states": {
+          "warning": 30,
+          "critical": 15
+        },
+        "format": "<span size='x-large' foreground='#d8dee9'>{icon} </span>{capacity}%",
+        "format-warning": "<span size='x-large' foreground='#d08770'>{icon} </span> {capacity}%",
+        "format-critical": "<span size='x-large' foreground='#bf616a'>{icon} </span> {capacity}%",
+        "format-charging": "<span size='x-large' foreground='#a3be8c'> </span>{capacity}%",
+        "format-plugged": "<span size='x-large' foreground='#d8dee9'> </span>{capacity}%",
+        "format-alt": "<span size='x-large' foreground='#d8dee9'>{icon} </span> {time}",
+        "format-full": "<span size='x-large' foreground='#d8dee9'> </span>{capacity}%",
+        "format-icons": ["", "", "", "", ""],
+        "tooltip-format": "{time}"
+    },
+    "backlight": {
+        "device": "intel_backlight",
+        "format": "{percent}% {icon}",
+        "format-icons": ["", ""],
+        "tooltip": false
+    },
     "pulseaudio": {
-        "format": "{volume}% {icon} {format_source}",
+        "format": "{volume}% {icon}",
         "format-bluetooth": "{volume}% {icon} {format_source}",
         "format-bluetooth-muted": " {icon} {format_source}",
         "format-muted": " {format_source}",

@@ -13,12 +13,13 @@
     ],
     "modules-right": [
         "idle_inhibitor",
+        "backlight",
         "pulseaudio",
         "network",
         "cpu",
         "memory",
-        "temperature",
         "clock",
+        "battery",
         "tray",
         "custom/power"
     ],
