@@ -17,7 +17,7 @@ For bash you may need to delete the existing .bashrc or use the parameter to ove
 need to have neovim installed, with a version above v8.0 and then the Lazy-vim config will take care of downloading all of the plugins, and the configuration will be handled by the .lua files
 
 # hyprland  
-![hyprland]({{ "/images/hyprland_01.jpg" | absolute_url }})  
+![hyprland]("/images/hyprland_01.jpg")  
 
 For hyprland make sure to have the following packages installed:  
 pacman  
