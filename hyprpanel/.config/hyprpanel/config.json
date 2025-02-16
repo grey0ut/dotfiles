@@ -1,6 +1,6 @@
 {
   "bar.customModules.updates.pollingInterval": 1440000,
-  "theme.font.name": "Hack Nerd Font Mono Bold Italic",
+  "theme.font.name": "Hack Nerd Font Mono",
   "theme.bar.menus.background": "#2e3440",
   "theme.bar.background": "#2e3440",
   "theme.bar.buttons.media.icon": "#88c0d0",
@@ -361,5 +361,8 @@
   "bar.network.showWifiInfo": false,
   "bar.clock.format": "%I:%M:%S %p",
   "bar.media.show_active_only": true,
-  "menus.clock.weather.enabled": false
+  "menus.clock.weather.enabled": false,
+  "scalingPriority": "hyprland",
+  "theme.font.style": "normal",
+  "theme.font.label": "Hack Nerd Font Mono Bold"
 }
