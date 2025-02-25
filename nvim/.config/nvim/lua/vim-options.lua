@@ -5,7 +5,7 @@ vim.cmd("set shiftwidth=4")
 vim.cmd("set relativenumber")
 vim.cmd("set clipboard+=unnamedplus")
 vim.g.mapleader = " "
-vim.g.background = "light"
+--vim.g.background = "light"
 
 vim.wo.number = true
 vim.opt.swapfile = false

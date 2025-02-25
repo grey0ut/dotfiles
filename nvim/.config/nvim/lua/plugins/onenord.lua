@@ -1,5 +1,5 @@
 return {
-    "gbprod/nord.nvim",
+    'rmehri01/onenord.nvim',
     lazy = false,
     dependencies = {
         "MunifTanjim/nui.nvim",
@@ -8,15 +8,12 @@ return {
     enabled = true,
     priority = 1000,
     config = function()
-        require('nord').setup({
-            transparent = false,
+        require('onenord').setup({
             borders = true,
-            styles = {
-                comments = {
-                    italic = true,
-                },
+            disable = {
+                background = false,
             },
-            vim.cmd.colorscheme("nord")
+            vim.cmd.colorscheme('onenord')
         })
     end,
 }
