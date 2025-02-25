@@ -1,0 +1,22 @@
+return {
+    "gbprod/nord.nvim",
+    lazy = false,
+    dependencies = {
+        "MunifTanjim/nui.nvim",
+        "nvim-tree/nvim-web-devicons",
+    },
+    enabled = true,
+    priority = 1000,
+    config = function()
+        require('nord').setup({
+            transparent = false,
+            borders = true,
+            styles = {
+                comments = {
+                    italic = true,
+                },
+            },
+            vim.cmd.colorscheme("nord")
+        })
+    end,
+}
