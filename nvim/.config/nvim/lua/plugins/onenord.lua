@@ -12,6 +12,7 @@ return {
             borders = true,
             disable = {
                 background = false,
+                float_background = true,
             },
             vim.cmd.colorscheme('onenord')
         })
