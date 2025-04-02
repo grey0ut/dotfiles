@@ -1,0 +1,25 @@
+{
+    "kitty": {
+        "name": "Terminal",
+        "icon": "terminal"
+    },
+    "SignalDesk1": {
+        "name": "SignalDesk",
+        "exec": "/usr/bin/signal-desktop --enable-features=UseOzonePlatform --ozone-platform=wayland --password-store=kwallet6",
+        "keyword": "signal messenger"
+    },
+    "VLC media player": {
+        "name": "VLC Player"
+    },
+    "Tweaks": {
+        "name": "GTK Settings",
+        "icon": "settings"
+    },
+    "Vesktop": {
+        "name": "Discord",
+        "icon": "discord",
+        "exec": "/usr/bin/vesktop --enable-features=UseOzonePlatform --ozone-platform=wayland %U",
+        "keywords": "discord"
+    }
+}
+

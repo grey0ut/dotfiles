@@ -1,0 +1,25 @@
+[default_apps]
+#calendar_client         =   "thunderbird"                           # For fetching event tile data
+terminal                =   "kitty"                                 # Used to start applications
+
+[debug]
+try_suppress_errors     =   false                                   # Disables the error screen for errors
+try_suppress_warnings   =   true                                    # Disables the error screen for warnings
+
+[appearance]
+width                   =   600                                     # Sets the width of the main window
+height                  =   500                                     # Sets the height of the main window
+gsk_renderer            =   "cairo"                                 # Sets the rendering engine. [ngl, cairo, ]
+recolor_icons           =   false                                   # If set to true, uses the [icon-name]-symbolic icons
+icon_paths              =   ["~/.config/sherlock/icons"]            # Sets where the application should look for custom icons
+icon_size               =   22                                      # Sets the icon size for the tiles
+
+[behavior]
+caching                 =   true                                   # If set to true, will enable caching
+cache                   =   "~/.cache/sherlock_desktop_cache.json"  # Sets the location for caching files
+daemonize               =   false                                   # Enables deamon mode
+animation               =   false                                    # Enables startup animations
+
+[binds]
+prev                    =   "None"                                  # Sets an aditional bind for selection the previous item in the list
+next                    =   "None"                                  # Sets an aditional bind for selection the next item in the list
