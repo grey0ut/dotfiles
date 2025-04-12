@@ -17,6 +17,7 @@ alias ll='ls -la'
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias tree='tree -C'
+alias lg='lazygit'
 # cd into the old directory
 alias bd='cd "$OLDPWD"'
 # launch cmus and cavalier for terminal music playing
