@@ -438,5 +438,6 @@
   "theme.bar.buttons.modules.cava.icon_background": "#3b4252",
   "theme.bar.buttons.modules.cava.icon": "#8fbcbb",
   "theme.bar.buttons.modules.cava.border": "#8fbcbb",
-  "menus.dashboard.powermenu.sleep": "systemctl suspend"
+  "menus.dashboard.powermenu.sleep": "systemctl suspend",
+  "bar.workspaces.ignored": "-98"
 }
