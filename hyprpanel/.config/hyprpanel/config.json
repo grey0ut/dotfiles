@@ -439,5 +439,8 @@
   "theme.bar.buttons.modules.cava.icon": "#8fbcbb",
   "theme.bar.buttons.modules.cava.border": "#8fbcbb",
   "menus.dashboard.powermenu.sleep": "systemctl suspend",
-  "bar.workspaces.ignored": "-98"
+  "bar.workspaces.ignored": "-98",
+  "theme.bar.menus.opacity": 100,
+  "theme.bar.transparent": true,
+  "theme.bar.opacity": 50
 }
