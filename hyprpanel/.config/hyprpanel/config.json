@@ -444,5 +444,8 @@
   "theme.bar.transparent": true,
   "theme.bar.opacity": 50,
   "notifications.timeout": 2000,
-  "notifications.autoDismiss": true
+  "notifications.autoDismiss": true,
+  "notifications.ignore": [
+    "firefox"
+  ]
 }
