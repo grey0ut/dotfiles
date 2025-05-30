@@ -20,7 +20,7 @@ alias grep='grep --color=auto'
 alias tree='tree -C'
 alias lg='lazygit'
 
-PS1='[\[\033[01;34m\]\u\[\033[00m\]@\[\033[01;31m\]\h\[\033[00m\]]\[\033[44m\]\W\[\033[00m\]\$ '
+export PROMPT='%~ %# '
 
 export PATH=$PATH:"$HOME/.local/bin"
 export GEM_HOME="$(gem env user_gemhome)"
