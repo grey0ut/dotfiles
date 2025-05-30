@@ -21,6 +21,7 @@ alias tree='tree -C'
 alias lg='lazygit'
 
 export PROMPT='%~ %# '
+export EDITOR=/usr/bin/nvim
 export GIT_ASKPASS=/usr/bin/ksshaskpass
 export PATH=$PATH:"$HOME/.local/bin"
 export GEM_HOME="$(gem env user_gemhome)"
