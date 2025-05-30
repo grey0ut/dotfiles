@@ -345,7 +345,7 @@
   "theme.bar.menus.menu.network.switch.puck": "#434c53",
   "theme.bar.buttons.systray.customIcon": "#d8dee9",
   "bar.workspaces.show_numbered": true,
-  "bar.workspaces.monitorSpecific": false,
+  "bar.workspaces.monitorSpecific": true,
   "bar.workspaces.workspaces": 5,
   "menus.dashboard.powermenu.avatar.image": "/home/grislobo/Pictures/profile.png",
   "menus.dashboard.shortcuts.enabled": true,
