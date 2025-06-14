@@ -19,6 +19,7 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias tree='tree -C'
 alias lg='lazygit'
+alias ff='fastfetch'
 
 export PROMPT='%~ %# '
 export EDITOR=/usr/bin/nvim
