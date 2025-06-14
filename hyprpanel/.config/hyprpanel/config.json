@@ -447,5 +447,6 @@
   "notifications.autoDismiss": true,
   "notifications.ignore": [
     "firefox"
-  ]
+  ],
+  "bar.autoHide": "never"
 }
