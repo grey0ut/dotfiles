@@ -117,6 +117,7 @@ return {
         },
   },
   keys = {
+    { "<leader>db", function() Snacks.dashboard() end, desc = "Snacks Dashboard" },
     { "<leader>lg", function() Snacks.lazygit() end, desc = "LazyGit" },
     { "<leader>gl", function() Snacks.lazygit.log_file() end, desc = "LazyGit Log (cwd)" },
     { "<leader>ie", function() Snacks.indent.enable() end, desc = "Indent Enabled" },
