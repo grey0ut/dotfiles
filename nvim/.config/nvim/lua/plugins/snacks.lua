@@ -69,6 +69,11 @@ return {
             },
             layout = {
                 preset = "telescope",
+            layout = {
+                    layout = {
+                        position = "right",
+                    },
+                },
                 cycle = false,
             },
             layouts = {
@@ -115,6 +120,11 @@ return {
             border = "rounded",
             },
         },
+    styles = {
+        float = {
+            backdrop = 100,
+            },
+        },
   },
   keys = {
     { "<leader>db", function() Snacks.dashboard() end, desc = "Snacks Dashboard" },
@@ -127,6 +137,7 @@ return {
     { "<leader>pc", function() Snacks.picker.files({ cwd = vim.fn.stdpath("config") }) end, desc = "Config Files" },
     { "<leader>pg", function() Snacks.picker.grep()  end, desc = "Grep word" },
     { "<leader>pk", function() Snacks.picker.keymaps({ layout = "ivy" })  end, desc = "Keymaps" },
+    { "<leader>ph", function() Snacks.notifier.show_history()  end, desc = "Notification History" },
     { "<leader>pt", function() Snacks.picker.colorschemes({ layout = "ivy" })  end, desc = "Pick Colorscheme" },
     { "<leader>pb",
             function()
