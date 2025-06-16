@@ -367,22 +367,7 @@
   "theme.font.label": "Hack Nerd Font Mono Bold",
   "theme.bar.buttons.modules.hypridle.enableBorder": false,
   "bar.layouts": {
-    "2": {
-      "left": [
-        "dashboard",
-        "workspaces",
-        "windowtitle"
-      ],
-      "middle": [
-        "media"
-      ],
-      "right": [
-        "volume",
-        "clock",
-        "notifications"
-      ]
-    },
-    "eDP-1": {
+    "0": {
       "left": [
         "dashboard",
         "workspaces",
@@ -402,7 +387,7 @@
         "notifications"
       ]
     },
-    "DP-1": {
+    "1": {
       "left": [
         "dashboard",
         "workspaces",
