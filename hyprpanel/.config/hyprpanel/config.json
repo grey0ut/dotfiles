@@ -367,7 +367,22 @@
   "theme.font.label": "Hack Nerd Font Mono Bold",
   "theme.bar.buttons.modules.hypridle.enableBorder": false,
   "bar.layouts": {
-    "0": {
+    "2": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    },
+    "eDP-1": {
       "left": [
         "dashboard",
         "workspaces",
@@ -387,22 +402,7 @@
         "notifications"
       ]
     },
-    "1": {
-      "left": [
-        "dashboard",
-        "workspaces",
-        "windowtitle"
-      ],
-      "middle": [
-        "media"
-      ],
-      "right": [
-        "volume",
-        "clock",
-        "notifications"
-      ]
-    },
-    "2": {
+    "DP-1": {
       "left": [
         "dashboard",
         "workspaces",
