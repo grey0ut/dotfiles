@@ -433,5 +433,8 @@
   "notifications.ignore": [
     "firefox"
   ],
-  "bar.autoHide": "never"
+  "bar.autoHide": "never",
+  "bar.customModules.storage.paths": [
+    "/"
+  ]
 }
