@@ -436,5 +436,8 @@
   "bar.autoHide": "never",
   "bar.customModules.storage.paths": [
     "/"
-  ]
+  ],
+  "menus.dashboard.shortcuts.right.shortcut1.command": "hyprctl keyword monitor eDP-1,2880x1920@60,auto,1.5\n",
+  "menus.dashboard.shortcuts.right.shortcut1.icon": "󱧑",
+  "menus.dashboard.shortcuts.right.shortcut1.tooltip": "Lower refresh rate"
 }
