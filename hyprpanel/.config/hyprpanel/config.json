@@ -433,5 +433,11 @@
   "notifications.ignore": [
     "firefox"
   ],
-  "bar.autoHide": "never"
+  "bar.autoHide": "never",
+  "bar.customModules.storage.paths": [
+    "/"
+  ],
+  "menus.dashboard.shortcuts.right.shortcut1.command": "bash -c \"~/.config/hypr/conf/refreshtoggle.sh\"",
+  "menus.dashboard.shortcuts.right.shortcut1.icon": "󱧑",
+  "menus.dashboard.shortcuts.right.shortcut1.tooltip": "Toggle monitor refresh rate"
 }
