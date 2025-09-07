@@ -26,13 +26,13 @@ return {
             lspconfig.pyright.setup({
                 capabilities = capabilities
             })
-            -- lspconfig.powershell_es.setup({
-            --     capabilities = capabilities,
-            --     bundle_path = '~/.config/powershell_es',
-            --     init_options = {
-            --         enableProfileLoading = false,
-            --     }
-            -- })
+            lspconfig.powershell_es.setup({
+                capabilities = capabilities,
+                bundle_path = '~/.config/powershell_es',
+                init_options = {
+                    enableProfileLoading = false,
+                }
+            })
             vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
             vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, {})
             vim.keymap.set("n", "<leader>gr", vim.lsp.buf.references, {})
