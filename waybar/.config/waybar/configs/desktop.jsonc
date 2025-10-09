@@ -54,7 +54,7 @@
         "all-outputs": false,
         "format": "{name}",
         "persistent-workspaces": {
-            "DP-3": [5,6]
+            "DP-3": [9,10]
         }
     }
   }
