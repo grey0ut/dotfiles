@@ -12,6 +12,9 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
+# adding zoxide support
+eval "$(zoxide init zsh)"
+
 # Aliases
 alias vim='nvim'
 alias ll='ls -la'
