@@ -58,7 +58,7 @@
                     "colorizeSystemIcon": "none",
                     "customIconPath": "",
                     "enableColorization": false,
-                    "icon": "noctalia",
+                    "icon": "adjustments",
                     "id": "ControlCenter",
                     "useDistroLogo": false
                 },
@@ -232,7 +232,14 @@
                     "id": "KeepAwake"
                 },
                 {
-                    "id": "NightLight"
+                    "enableOnStateLogic": false,
+                    "generalTooltipText": "Toggle Refresh",
+                    "icon": "refresh-dot",
+                    "id": "CustomButton",
+                    "onClicked": "~/.config/hypr/conf/refreshtoggle.sh",
+                    "onMiddleClicked": "",
+                    "onRightClicked": "",
+                    "stateChecksJson": "[]"
                 }
             ]
         }
@@ -256,6 +263,7 @@
         ],
         "onlySameOutput": true,
         "pinnedApps": [
+            "waterfox"
         ],
         "pinnedStatic": false,
         "size": 1
@@ -264,7 +272,7 @@
         "allowPanelsOnScreenWithoutBar": true,
         "animationDisabled": false,
         "animationSpeed": 0.98,
-        "avatarImage": "/home/greyed/.face",
+        "avatarImage": "/home/greyed/Pictures/grifter.png",
         "boxRadiusRatio": 1,
         "compactLockScreen": false,
         "dimmerOpacity": 0,
@@ -372,7 +380,7 @@
         "powerOptions": [
             {
                 "action": "lock",
-                "command": "",
+                "command": "hyprlock",
                 "countdownEnabled": true,
                 "enabled": true
             },
