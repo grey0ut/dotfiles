@@ -40,6 +40,9 @@ fi
 export BUN_INSTALL="$HOME/.bun"
 export PATH=$BUN_INSTALL/bin:$PATH
 
+# bitwarden ssh-agent
+export SSH_AUTH_SOCK=/home/$USER/.bitwarden.ssh-agent.sock
+
 # key bindings
 
 # enable auto-suggestions based on the history
