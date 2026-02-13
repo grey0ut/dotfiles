@@ -41,7 +41,7 @@ export BUN_INSTALL="$HOME/.bun"
 export PATH=$BUN_INSTALL/bin:$PATH
 
 # bitwarden ssh-agent
-export SSH_AUTH_SOCK=/home/$USER/.bitwarden.ssh-agent.sock
+export SSH_AUTH_SOCK="$HOME/.bitwarden.ssh-agent.sock"
 
 # key bindings
 
@@ -66,5 +66,3 @@ function y() {
 	[ -n "$cwd" ] && [ "$cwd" != "$PWD" ] && builtin cd -- "$cwd"
 	rm -f -- "$tmp"
 }
-
-eval $(ssh-agent -s) > /dev/null
