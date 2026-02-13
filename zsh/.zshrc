@@ -63,3 +63,5 @@ function y() {
 	[ -n "$cwd" ] && [ "$cwd" != "$PWD" ] && builtin cd -- "$cwd"
 	rm -f -- "$tmp"
 }
+
+eval $(ssh-agent -s) > /dev/null
