@@ -41,7 +41,8 @@ export BUN_INSTALL="$HOME/.bun"
 export PATH=$BUN_INSTALL/bin:$PATH
 
 # bitwarden ssh-agent
-export SSH_AUTH_SOCK="$HOME/.bitwarden.ssh-agent.sock"
+eval $(ssh-agent) > /dev/null
+export SSH_AUTH_SOCK="$HOME/.bitwarden-ssh-agent.sock"
 
 # key bindings
 
