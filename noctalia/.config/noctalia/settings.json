@@ -138,7 +138,7 @@
                     "maxWidth": 145,
                     "scrollingMode": "hover",
                     "showIcon": true,
-                    "textColor": "none",
+                    "textColor": "primary",
                     "useFixedWidth": false
                 },
                 {
