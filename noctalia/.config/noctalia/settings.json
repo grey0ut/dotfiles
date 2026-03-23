@@ -37,7 +37,7 @@
         "position": "top",
         "showCapsule": true,
         "showOutline": false,
-        "transparent": false,
+        "transparent": true,
         "widgets": {
             "center": [
                 {
