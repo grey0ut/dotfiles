@@ -207,6 +207,12 @@
                 {
                     "displayMode": "onhover",
                     "iconColor": "none",
+                    "id": "Network",
+                    "textColor": "none"
+                },
+                {
+                    "displayMode": "onhover",
+                    "iconColor": "none",
                     "id": "Bluetooth",
                     "textColor": "none"
                 },
