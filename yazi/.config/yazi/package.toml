@@ -3,5 +3,5 @@ deps = []
 
 [[flavor.deps]]
 use = "AdithyanA2005/nord"
-rev = "3a791e9"
-hash = "fa7142cda74a50b271ea212356b40b57"
+rev = "bdf0bd4"
+hash = "816970e00d643d3e8213b430d2148aec"
