@@ -14,7 +14,8 @@ hl.bind("SUPER + E", hl.dsp.exec_cmd(fileManager))
 hl.bind("SUPER + V", hl.dsp.window.float({ action = "toggle" }))
 hl.bind("SUPER + space", hl.dsp.exec_cmd(menu))
 hl.bind("SUPER + P", hl.dsp.window.pseudo())
--- hl.bind("SUPER + J", hl.dsp.layout("togglesplit"))    -- dwindle only
+hl.bind("SUPER + SHIFT + S", hl.dsp.exec_cmd("hyprshot -m region --clipboard-only"))
+hl.bind("SUPER + SHIFT + W", hl.dsp.exec_cmd("hyprshot -m region --output-folder ~/Pictures/Screenshots"))
 
 -- Move focus with mainMod + arrow keys
 hl.bind("SUPER + h",  hl.dsp.focus({ direction = "left" }))
@@ -30,9 +31,9 @@ for i = 1, 10 do
     hl.bind("SUPER + SHIFT + " .. key,     hl.dsp.window.move({ workspace = i }))
 end
 
--- Example special workspace (scratchpad)
-hl.bind("SUPER + S",         hl.dsp.workspace.toggle_special("magic"))
-hl.bind("SUPER + SHIFT + S", hl.dsp.window.move({ workspace = "special:magic" }))
+---- Example special workspace (scratchpad)
+--hl.bind("SUPER + S",         hl.dsp.workspace.toggle_special("magic"))
+--hl.bind("SUPER + SHIFT + S", hl.dsp.window.move({ workspace = "special:magic" }))
 
 -- Scroll through existing workspaces with mainMod + scroll
 hl.bind("SUPER + mouse_down", hl.dsp.focus({ workspace = "e+1" }))
