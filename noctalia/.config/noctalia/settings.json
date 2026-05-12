@@ -322,6 +322,7 @@
                     "onClicked": "~/.config/hypr/conf/refreshtoggle.sh",
                     "onMiddleClicked": "",
                     "onRightClicked": "",
+                    "showExecTooltip": true,
                     "stateChecksJson": "[]"
                 }
             ]
