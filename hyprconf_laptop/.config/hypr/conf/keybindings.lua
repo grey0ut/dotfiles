@@ -54,7 +54,7 @@ hl.bind("XF86MonBrightnessDown",hl.dsp.exec_cmd("brightnessctl -e4 -n2 set 5%-")
 
 -- Laptop lid switch
 -- Trigger when the switch is toggled.
-hl.bind("switch:Lid Switch", hl.dsp.exec_cmd("hyprlock --immediate"), { locked = true })
+hl.bind("switch:Lid Switch", hl.dsp.exec_cmd("hyprlock --grace 0"), { locked = true })
 -- Trigger when the switch is turning on.
 hl.bind("switch:on:Lid Switch", hl.dsp.exec_cmd("hyprctl dispatch dpms off"), { locked = true })
 -- Trigger when the switch is turning off.
