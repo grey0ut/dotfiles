@@ -1,4 +1,4 @@
----------------------
+--------------------
 ---- KEYBINDINGS ----
 ---------------------
 
@@ -67,6 +67,6 @@ hl.bind("XF86AudioPlay",  hl.dsp.exec_cmd("playerctl play-pause"), { locked = tr
 hl.bind("XF86AudioPrev",  hl.dsp.exec_cmd("playerctl previous"),   { locked = true })
 
 -- Scrolling layout
-hl.bind("SUPER+ period", hl.dsp.layout("move +col"))
+hl.bind("SUPER+ period", hl.dsp.layout("swapcol r"))
 hl.bind("SUPER+ comma", hl.dsp.layout("swapcol l"))
 hl.bind("SUPER+ slash", hl.dsp.layout("colresize +conf"))
