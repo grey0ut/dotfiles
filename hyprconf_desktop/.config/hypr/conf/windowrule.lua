@@ -1,6 +1,7 @@
 ----------------------
 ---- WINDOW RULES ----
 ----------------------
+--- this file can be abandoned in favor of the laptop one
 
 local suppressMaximizeRule = hl.window_rule({
     -- Ignore maximize requests from all apps. You'll probably like this.
