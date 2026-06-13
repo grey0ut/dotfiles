@@ -2,6 +2,8 @@
 ---- WINDOW RULES ----
 ----------------------
 
+local func = require("conf.functions")
+
 local suppressMaximizeRule = hl.window_rule({
     -- Ignore maximize requests from all apps. You'll probably like this.
     name  = "suppress-maximize-events",
@@ -58,6 +60,14 @@ hl.window_rule({
 })
 
 hl.window_rule({
+    name = "Waterfox-opac",
+    match = {
+        class = "waterfox",
+    },
+    opacity = "1.0 override",
+})
+
+hl.window_rule({
     name = "Plasma-windowed",
     match = {
         class = "org.kde.plasmawindowed",
@@ -65,13 +75,15 @@ hl.window_rule({
    float = true,
 })
 
-hl.window_rule({
-    name = "10-floats",
-    match = {
-        workspace = 10,
-    },
-    float = true,
-})
+if func.is_laptop() then
+    hl.window_rule({
+        name = "10-floats",
+        match = {
+            workspace = 10,
+        },
+        float = true,
+    })
+end
 -- Hyprland-run windowrule
 hl.window_rule({
     name  = "move-hyprland-run",
