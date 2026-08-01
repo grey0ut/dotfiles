@@ -92,3 +92,11 @@ hl.window_rule({
     move  = "20 monitor_h-120",
     float = true,
 })
+
+hl.window_rule({
+    match = {
+        content = "game",
+        fullscreen = true
+    },
+    confine_pointer = true
+})
