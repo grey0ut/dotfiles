@@ -36,6 +36,14 @@ hl.window_rule({
 })
 
 hl.window_rule({
+    name = "plexamp-float",
+    match = {
+        title = "^(Plexamp)",
+    },
+    float  = true,
+})
+
+hl.window_rule({
     name = "networks-float",
     match = {
         title = "^(Networks)$",
