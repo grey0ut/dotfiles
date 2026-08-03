@@ -6,7 +6,7 @@ local func = require("conf.functions")
 if func.is_laptop() then
     hl.monitor({
         output  = "eDP-1",
-        mode    = "preferred",
+        mode    = "2880x1920@60",
         scale   = "1.5",
     })
 
