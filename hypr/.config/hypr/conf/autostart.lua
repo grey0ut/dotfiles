@@ -11,7 +11,7 @@ if func.is_laptop() then
       hl.exec_cmd("systemctl --user start plasma-polkit-agent")
       hl.exec_cmd("nextcloud --background")
       hl.exec_cmd("hypridle")
-      hl.exec_cmd("qs -c noctalia-shell")
+      hl.exec_cmd("noctalia")
     end)
 else
     hl.on("hyprland.start", function () 
