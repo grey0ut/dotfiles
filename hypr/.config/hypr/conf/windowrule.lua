@@ -91,6 +91,11 @@ if func.is_laptop() then
         },
         float = true,
     })
+    hl.window_rule({
+        match = { class = "dev.noctalia.Noctalia" },
+        float = true,
+        size = { 1080, 920 },
+    })
 end
 -- Hyprland-run windowrule
 hl.window_rule({
