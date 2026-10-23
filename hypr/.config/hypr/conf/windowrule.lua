@@ -83,6 +83,14 @@ hl.window_rule({
    float = true,
 })
 
+hl.window_rule({
+    name = "overthehill-windowed",
+    match = {
+        title = "over the hill"
+    },
+   float = true,
+})
+
 if func.is_laptop() then
     hl.window_rule({
         name = "10-floats",
