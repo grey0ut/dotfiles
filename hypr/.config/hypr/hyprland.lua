@@ -76,6 +76,11 @@ hl.config({
     animations = {
         enabled = true,
     },
+
+    input_capture = {
+        capture_modifiers = false,
+        enforce_barriers = true,
+    },
 })
 
 -- Default curves and animations, see https://wiki.hypr.land/Configuring/Advanced-and-Cool/Animations/
